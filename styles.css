@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+html {
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  padding: 7px 0px 8.5px 17px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  font-size: 15px;
+  font-family: "Times New Roman", Georgia, serif;
+  letter-spacing: 4px;
+  box-shadow: 0px 1px 8.5px 0px rgb(175, 175, 175);
+  z-index: 1;
+}
+
+.name {
+  float: left;
+  margin-left: -1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right_nav {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-right: 33px;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_link {
+  padding: 11px 16px;
+  transition: background-color 0.15s;
+}
+
+.nav_link:hover {
+  background-color: rgba(185, 185, 185, 0.527);
+}
+
+.burger {
+  display: block;
+  margin: auto;
+}
+
+.txt_on_img {
+  font-family: "Times New Roman", Times, serif;
+  margin: -70px 0 100px 175.5px;
+  font-size: 36px;
+  color: #56575b;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+.sec_img {
+  width: 501px;
+  height: 627px;
+  opacity: 0.75;
+  margin: 4px 0px 100px 426px;
+  border-radius: 4px;
+}
+
+.sec_page_paras {
+  margin: -500px 10px 500px 970px;
+}
+
+.sec_page_para_one {
+  width: 450px;
+}
