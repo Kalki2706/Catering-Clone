@@ -77,9 +77,106 @@ ul {
 }
 
 .sec_page_paras {
-  margin: -500px 10px 500px 970px;
+  margin: -735px 10px 230px 970px;
 }
 
-.sec_page_para_one {
-  width: 450px;
+.sec_page_para_one,
+.sec_page_sec_para {
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  width: 500px;
+  line-height: 27px;
+  margin-left: 5.5px;
+}
+
+.about_catering {
+  font-family: "Times New Roman";
+  font-size: 36px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+.since {
+  font-family: "Playfair";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: -10px;
+}
+
+.seasonal {
+  background-color: #eeeeee;
+  padding: 2px 8px;
+}
+
+.sec_page_sec_para {
+  margin-top: 18px;
+  color: #818181;
+}
+
+.about_catering,
+.since {
+  line-height: 83px;
+  text-align: center;
+  margin-right: 410px;
+}
+
+hr {
+  border: 0.1px solid #f5f5f5;
+  margin: 0px 400px;
+}
+
+.our_menu,
+.contact {
+  font-size: 36px;
+  margin: 0px 0px 30px 155px;
+  letter-spacing: 5px;
+}
+
+.menu_name {
+  margin: -730px 0px 200px 420px;
+}
+
+.food_name {
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 65px;
+}
+
+.desc {
+  color: #818181;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.menu_img {
+  width: 503px;
+  height: 755px;
+  border-radius: 4px;
+  margin: 100px 100px 0px 0px;
+  opacity: 0.75;
+}
+
+.third_img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 325px;
+}
+
+.footer,
+.copyright {
+  font-family: "Times New Roman", Times, serif;
+  margin: 100px 0px 100px 400px;
+}
+
+.contact {
+  margin-left: 0;
+  margin-bottom: 70px;
+}
+
+.foot_para_one {
+  font-size: 15px;
+  width: 1050px;
 }
