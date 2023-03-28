@@ -173,10 +173,45 @@ hr {
 
 .contact {
   margin-left: 0;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .foot_para_one {
   font-size: 15px;
+  line-height: 25px;
   width: 1050px;
+}
+
+.copyright {
+  background-color: #f1f1f1;
+  padding: 50px 0px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.w3_link {
+  color: #000;
+  transition: color 0.2s;
+}
+
+.w3_link:hover {
+  color: green;
+}
+
+.para_one {
+  margin-bottom: 25px;
+}
+
+strong {
+  font-size: 18px;
+  color: #607d8b;
+}
+
+.details {
+  margin: 25px 0 40px;
+}
+
+.footer_details {
+  border: none;
 }
