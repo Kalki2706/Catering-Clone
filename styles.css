@@ -18,7 +18,7 @@ nav {
   font-size: 15px;
   font-family: "Times New Roman", Georgia, serif;
   letter-spacing: 4px;
-  box-shadow: 0px 1px 8.5px 0px rgb(175, 175, 175);
+  box-shadow: 0px 1px 8.5px 0px #afafaf;
   z-index: 1;
 }
 
@@ -51,7 +51,7 @@ ul {
 }
 
 .nav_link:hover {
-  background-color: rgba(185, 185, 185, 0.527);
+  background-color: #b9b9b986;
 }
 
 .burger {
@@ -178,7 +178,7 @@ hr {
 
 .foot_para_one {
   font-size: 15px;
-  line-height: 25px;
+  line-height: 1.5;
   width: 1050px;
 }
 
@@ -196,7 +196,7 @@ hr {
 }
 
 .w3_link:hover {
-  color: green;
+  color: #008000;
 }
 
 .para_one {
@@ -209,9 +209,31 @@ strong {
 }
 
 .details {
-  margin: 25px 0 40px;
+  margin: 25px 0 15px;
 }
 
 .footer_details {
   border: none;
+}
+
+input {
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: 1px solid #e0dede;
+  display: block;
+  /* line-height: 4; */
+  font-size: 15px;
+  padding: 16px 10px;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+button {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  padding: 12px 12px;
+  background-color: #f1f1f1;
+  margin-top: 18px;
 }
