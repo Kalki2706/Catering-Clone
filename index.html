@@ -81,9 +81,8 @@
 
       <hr />
 
+      <span id="menu"></span>
       <div class="third_page">
-        <span id="menu"></span>
-
         <div class="menu_name">
           <p class="our_menu">Our Menu</p>
 
@@ -141,19 +140,21 @@
         </div>
 
         <div class="footer_details">
-          <input type="text" name="text" placeholder="Name" />
-          <input
-            type="number"
-            name="number"
-            id="num"
-            placeholder="How many people"
-          />
-          <input type="datetime-local" name="datetime" />
-          <input
-            type="text"
-            name="text"
-            placeholder="Message/Special requirements"
-          />
+          <form action="">
+            <input type="text" name="text" placeholder="Name" required />
+            <input
+              type="number"
+              name="number"
+              id="num"
+              placeholder="How many people"
+            />
+            <input type="datetime-local" name="datetime" />
+            <input
+              type="text"
+              name="text"
+              placeholder="Message/Special requirements"
+            />
+          </form>
         </div>
 
         <button>SEND MESSAGE</button>
