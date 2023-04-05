@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 html {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   scroll-behavior: smooth;
 }
 
@@ -15,7 +15,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: white;
+  background-color: #ffffff;
   font-size: 15px;
   font-family: "Times New Roman", Georgia, serif;
   letter-spacing: 4px;
@@ -136,7 +136,7 @@ hr {
 }
 
 .menu_name {
-  margin: -730px 0px 200px 420px;
+  margin: 100px 0px 0px 420px;
 }
 
 .food_name {
@@ -155,15 +155,8 @@ hr {
   width: 503px;
   height: 755px;
   border-radius: 4px;
-  margin: 100px 100px 0px 0px;
+  margin: -670px 0px 100px 980px;
   opacity: 0.75;
-}
-
-.third_img {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-right: 325px;
 }
 
 .footer,
@@ -237,4 +230,8 @@ button {
   padding: 12px 12px;
   background-color: #f1f1f1;
   margin-top: 18px;
+}
+
+button:hover {
+  background-color: #cccccc;
 }
